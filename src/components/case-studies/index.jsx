@@ -1,4 +1,4 @@
-import FeatureImage from "../../assets/img/Feature-Image.png";
+import FeatureImage from "../../assets/img/Feature-Image.svg";
 import Button1 from "../buttons/btn-case";
 
 export default function CaseStudies() {
