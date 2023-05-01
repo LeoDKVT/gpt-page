@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import Rectangle from "../../assets/img/rectangle.png";
+import Rectangle0 from "../../assets/img/rectangle0.png";
 import Rectangle1 from "../../assets/img/rectangle1.png";
 import Rectangle2 from "../../assets/img/rectangle2.png";
 import Rectangle3 from "../../assets/img/rectangle3.png";
@@ -17,7 +17,7 @@ export default function Library() {
       <div className="row card-group">
         <div className="col-md-4 ">
           <Card className="bg-blue text-white mb-4">
-            <Card.Img variant="top" src={Rectangle} />
+            <Card.Img variant="top" src={Rectangle0} />
             <Card.Body>
               <Card.Text>Sep 26, 2021</Card.Text>
               <Card.Title className="mb-5">
