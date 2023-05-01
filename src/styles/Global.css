@@ -1,0 +1,67 @@
+/* Reset css */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+/* Corpo e fonte */
+body {
+  background-color: #040c18;
+  background-image: linear-gradient(
+    to right bottom,
+    #263f63,
+    #162c4e,
+    #0c203f,
+    #081b38,
+    #03152e,
+    #02142c,
+    #021124,
+    #031425,
+    #031325,
+    #041327,
+    #081322,
+    #040c18
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Barra de navegação personalizada */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ff8a71;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #040c18;
+  border-radius: 10px;
+  border: 2px solid #040c18;
+}
+
+.bg-blue {
+  background-color: #042c54;
+}
+
+.text-blue {
+  color: #81afdd;
+}
+
+.text-orange {
+  color: #ff8a71;
+}
+
+.degrade {
+  background-image: linear-gradient(to right, #ae67fa, #f49867);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-degrade {
+  background-image: linear-gradient(to right, #ae67fa, #f49867);
+}

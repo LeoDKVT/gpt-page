@@ -1,0 +1,26 @@
+.btn-case {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.btn-case:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-footer {
+    background-color: #042c54;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 0px;
+    padding: 10px 30px;
+}
+
+.btn-footer:hover {
+    background-color: #000000;
+    color: #ff8a71;
+    border: 3px solid #ff8a71;
+    
+}
