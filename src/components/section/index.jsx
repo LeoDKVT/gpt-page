@@ -1,5 +1,5 @@
 import Button from "react-bootstrap/Button";
-import Group from "../../assets/img/Group81.png";
+import Group from "../../assets/img/Group81.svg";
 import Ia from "../../assets/img/Illustration.svg";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
