@@ -1,15 +1,15 @@
+import Card from "react-bootstrap/Card";
 import Rectangle0 from "../../assets/img/Rectangle0.svg";
 import Rectangle1 from "../../assets/img/Rectangle1.svg";
 import Rectangle2 from "../../assets/img/Rectangle2.svg";
 import Rectangle3 from "../../assets/img/Rectangle3.svg";
 import Rectangle4 from "../../assets/img/Rectangle4.svg";
-/*
-import Card from "react-bootstrap/Card";
+
 
 export default function Library() {
   return (
     <section className="container my-5"  id="library">
-      <h2 className="degrade mb-5 h1">
+      <h2 className="degrade mb-5 pb-2 h1">
         <strong>
           A lot is happening, <br /> We are blogging about it.
         </strong>
@@ -82,8 +82,9 @@ export default function Library() {
   );
 }
 
-*/
 
+
+/*
 export default function Library() {
   return (
     <section className="container my-5" id="library">
@@ -165,3 +166,4 @@ export default function Library() {
     </section>
   );
 }
+*/
