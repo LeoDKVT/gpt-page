@@ -1,49 +1,16 @@
-//import Button from "react-bootstrap/Button";
-//import Container from "react-bootstrap/Container";
-//import Nav from "react-bootstrap/Nav";
-//import Navbar from "react-bootstrap/Navbar";
-
-/*
-export default function NavHome() {
-  return (
-    <header>
-      
-      <Navbar collapseOnSelect expand="md" variant="dark">
-        <Container>
-          <Navbar.Brand className="text-white" href="#home"><strong>GPT-3</strong></Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse className="white " id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home"><strong>Home</strong></Nav.Link>
-              <Nav.Link href="#whats-is-gpt"><strong>What is GPT?</strong></Nav.Link>
-              <Nav.Link href="#open-ai"><strong>Open AI</strong></Nav.Link>
-              <Nav.Link href="#case-studies"><strong>Case Studies</strong></Nav.Link>
-              <Nav.Link href="#library"><strong>Library</strong></Nav.Link>
-            </Nav>
-            <Nav>
-              <Nav.Link href="#action5">
-                <strong>Sign in</strong>
-              </Nav.Link>
-              <Button variant="outline-secondary">Sign up</Button>{' '}
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </header>
-  );
-}
-*/
+import "../navbar/styles.css";
+import BtnHeader from "../buttons/btn-header";
 
 export default function NavHome() {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
+      <nav className="navbar  navbar-dark navbar-expand-lg">
+        <div className="container">
+          <a className="navbar-brand text-white " href="#home">
+            <strong>GPT-3</strong>
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -53,25 +20,48 @@ export default function NavHome() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+
+          <div
+            className="collapse navbar-collapse justify-content-between"
+            id="navbarNav"
+          >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link me-2 " href="#home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
+                <a className="nav-link me-2" href="#whats-is-gpt">
+                  What is GPT?
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
+                <a className="nav-link me-2" href="#open-ai">
+                  Open AI
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
+                <a className="nav-link me-2" href="#case-studies">
+                  Case Studies
+                </a>
+              </li>
+
+              <li className="nav-item ">
+                <a className="nav-link me-2" href="#library">
+                  Library
+                </a>
+              </li>
+            </ul>
+
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link me-2 " href="#home">
+                  Sign in
+                </a>
+              </li>
+              <li className="nav-item">
+                <BtnHeader />
               </li>
             </ul>
           </div>

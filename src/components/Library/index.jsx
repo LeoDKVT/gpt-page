@@ -18,7 +18,7 @@ export default function Library() {
           <Card className="bg-blue text-white mb-4">
             <Card.Img variant="top" src={Rectangle0} />
             <Card.Body>
-              <Card.Text>Sep 26, 2021</Card.Text>
+              <Card.Text>feb 14, 2022</Card.Text>
               <Card.Title className="mb-5">
                 GPT-3 and Open AI is the future. Let us exlore how it is?
               </Card.Title>
@@ -31,7 +31,7 @@ export default function Library() {
           <Card className="bg-blue text-white mb-4">
             <Card.Img variant="top" src={Rectangle1} />
             <Card.Body>
-              <Card.Text>Sep 26, 2021</Card.Text>
+              <Card.Text>mai 26, 2022</Card.Text>
               <Card.Title>
                 GPT-3 and Open AI is the future. Let us exlore how it is?
               </Card.Title>
@@ -42,7 +42,7 @@ export default function Library() {
           <Card className="bg-blue text-white mb-4">
             <Card.Img variant="top" src={Rectangle2} />
             <Card.Body>
-              <Card.Text>Sep 26, 2021</Card.Text>
+              <Card.Text>Sep 29, 2022</Card.Text>
               <Card.Title>
                 GPT-3 and Open AI is the future. Let us exlore how it is?
               </Card.Title>
@@ -55,7 +55,7 @@ export default function Library() {
           <Card className="bg-blue text-white mb-4">
             <Card.Img variant="top" src={Rectangle3} />
             <Card.Body>
-              <Card.Text>Sep 26, 2021</Card.Text>
+              <Card.Text>jan 12, 2023</Card.Text>
               <Card.Title>
                 GPT-3 and Open AI is the future. Let us exlore how it is?
               </Card.Title>
@@ -66,7 +66,7 @@ export default function Library() {
           <Card className="bg-blue text-white mb-1">
             <Card.Img variant="top" src={Rectangle4} />
             <Card.Body>
-              <Card.Text>Sep 26, 2021</Card.Text>
+              <Card.Text>mar 23, 2023</Card.Text>
               <Card.Title>
                 GPT-3 and Open AI is the future. Let us exlore how it is?
               </Card.Title>

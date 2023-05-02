@@ -50,7 +50,7 @@ export default function Conteudo() {
           <img
             className="img-fluid"
             src={Ia}
-            style={{ height: 460, width: 560 }}
+            style={{  width: 560 }}
             alt="foto do rosto de um android Ia"
           />
         </div>

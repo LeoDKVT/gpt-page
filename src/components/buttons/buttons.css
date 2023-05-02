@@ -1,3 +1,18 @@
+.btn-header {
+    background-color: #ff8a71;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+
+.btn-header:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+
 .btn-case {
     background-color: #000000;
     color: #ffffff;
