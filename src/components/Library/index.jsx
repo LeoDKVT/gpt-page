@@ -1,10 +1,10 @@
 /*
 import Card from "react-bootstrap/Card";
-import Rectangle0 from "../../assets/img/rectangle0.png";
-import Rectangle1 from "../../assets/img/rectangle1.png";
-import Rectangle2 from "../../assets/img/rectangle2.png";
-import Rectangle3 from "../../assets/img/rectangle3.png";
-import Rectangle4 from "../../assets/img/rectangle4.png";
+import Rectangle0 from "../../assets/img/rectangle0.svg";
+import Rectangle1 from "../../assets/img/rectangle1.svg";
+import Rectangle2 from "../../assets/img/rectangle2.svg";
+import Rectangle3 from "../../assets/img/rectangle3.svg";
+import Rectangle4 from "../../assets/img/rectangle4.svg";
 
 export default function Library() {
   return (
