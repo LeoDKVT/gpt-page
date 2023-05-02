@@ -31,10 +31,11 @@ export default function Conteudo() {
           </InputGroup>
 
           <div className="row mt-2">
-            <div className="col-xl-4">
+            <div className="col-md-4 text-center ">
               <img
+              className="img-fluid "
                 src={Group}
-                style={{ height: 40, width: 200 }}
+                style={{ height: 40, width: 160 }}
                 alt="grupo de pessoas"
               />
             </div>
@@ -49,7 +50,7 @@ export default function Conteudo() {
           <img
             className="img-fluid"
             src={Ia}
-            style={{ height: 400, width: 560 }}
+            style={{ height: 460, width: 560 }}
             alt="foto do rosto de um android Ia"
           />
         </div>

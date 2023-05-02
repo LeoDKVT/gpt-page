@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
 
       </div>
-      <p className="mt-4">© 2021 GPT-3. All rights reserved.</p>
+      <p className="mt-4">© 2023 GPT-3. All rights reserved. Desenvolvido por <a href="https://leodkvt.com.br" alt="Desenvolvedor front-end"><strong>José Leonardo</strong></a></p>
     </footer>
   );
 }

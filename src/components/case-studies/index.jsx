@@ -9,7 +9,7 @@ export default function CaseStudies() {
           <img
             className="img-fluid"
             src={FeatureImage}
-            style={{ height: 540, width: 500 }}
+            style={{ height: 500, width: 500 }}
             alt=""
           />
         </div>
