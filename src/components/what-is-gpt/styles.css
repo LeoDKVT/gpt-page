@@ -3,3 +3,13 @@
         text-align: center;
     }
 }
+
+.before:before {
+    width: 60px;
+    height: 4px;
+    margin-bottom: 10px;
+    content: "";
+    background-image: linear-gradient(to right, #ae67fa, #f49867);
+    display: block;
+}
+

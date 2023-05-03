@@ -5,10 +5,10 @@ export default function WhatIs() {
     <section className="container text-white bg-blue" id="whats-is-gpt">
       <div className="row py-4">
         <div className="col-md-4">
-          <h3>What is GPT-3</h3>
+          <h3 className="before text-start">What is GPT-3</h3>
         </div>
         <div className="col-md-8">
-          <p className="text-blue">
+          <p className="text-blue text-start">
             We so opinion friends me message as delight. Whole front do of plate
             heard oh ought. His defective nor convinced residence own.
             Connection has put impossible own apartments boisterous. At jointure
@@ -31,30 +31,27 @@ export default function WhatIs() {
 
       <div className="row py-2 text-start">
         <div className="col-md-4 text-start">
-          <h3 className="mb-3 text-start">Chatbots</h3>
+          <h3 className="mb-3 text-start before">Chatbots</h3>
           <p className="text-blue text-start">
             We so opinion friends me message as delight. Whole front do of plate
             heard oh ought.{" "}
           </p>
         </div>
         <div className="col-md-4">
-          <h3 className="mb-3 text-start">Knowledgebase</h3>
+          <h3 className="mb-3 text-start before">Knowledgebase</h3>
           <p className="text-blue text-start">
             At jointure ladyship an insisted so humanity he. Friendly bachelor
             entrance to on by. As put impossible own apartments b
           </p>
         </div>
         <div className="col-md-4">
-          <h3 className="mb-3 text-start">Education</h3>
+          <h3 className="mb-3 text-start before">Education</h3>
           <p className="text-blue text-start">
             At jointure ladyship an insisted so humanity he. Friendly bachelor
             entrance to on by. As put impossible own apartments b
           </p>
         </div>
       </div>
-
-      <div></div>
-      <div></div>
     </section>
   );
 }

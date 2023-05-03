@@ -1,6 +1,6 @@
 header .nav-link {
     color: #ffffff;
-
+    transition-duration: 0.4s;
 }
 
 header .nav-link:hover {
