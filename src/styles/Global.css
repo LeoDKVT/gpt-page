@@ -65,3 +65,11 @@ body::-webkit-scrollbar-thumb {
 .bg-degrade {
   background-image: linear-gradient(to right, #ae67fa, #f49867);
 }
+
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+  p, h1, h2 {
+      text-align: center;
+  }
+}

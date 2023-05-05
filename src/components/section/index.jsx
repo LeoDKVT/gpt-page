@@ -1,8 +1,8 @@
-import Button from "react-bootstrap/Button";
 import Group from "../../assets/img/Group81.svg";
 import Ia from "../../assets/img/Illustration.svg";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
+import BtnStarted from "../buttons/btn-started";
 
 export default function Conteudo() {
   return (
@@ -19,21 +19,19 @@ export default function Conteudo() {
             asked of.
           </p>
 
-          <InputGroup className="mb-3">
-            <Form.Control
+          <InputGroup className="my-3" >
+            <Form.Control className="bg-blue border border-0"
               placeholder="Your Email Address"
               aria-label="Your Email Address"
               aria-describedby="basic-addon2"
             />
-            <Button variant="outline-secondary" id="button-addon2">
-              Get Started
-            </Button>
+            <BtnStarted />
           </InputGroup>
 
           <div className="row mt-2">
             <div className="col-md-4 text-center ">
               <img
-              className="img-fluid "
+                className="img-fluid "
                 src={Group}
                 style={{ height: 40, width: 160 }}
                 alt="grupo de pessoas"
@@ -50,7 +48,7 @@ export default function Conteudo() {
           <img
             className="img-fluid"
             src={Ia}
-            style={{  width: 560 }}
+            style={{ width: 560 }}
             alt="foto do rosto de um android Ia"
           />
         </div>

@@ -1,27 +1,40 @@
 .btn-header {
-    background-color: #ff8a71;
+    background-color: #FF4820;
     color: #ffffff;
     border-radius: 4px;
     padding: 10px 30px;
 }
 
 .btn-header:hover {
-    background-color: #ffffff;
+    background-color: #ae67fa;
     color: #000000;
+    transition: 0.3s;
 }
 
+.btn-started {
+    background-color: #FF4820;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
 
+.btn-started:hover {
+    background-color: #ae67fa;
+    color: #000000;
+    transition: 0.3s;
+}
 
 
 .btn-case {
     background-color: #000000;
-    color: #ffffff;
+    color: #ae67fa;
     border-radius: 20px;
     padding: 10px 30px;
 }
 
 .btn-case:hover {
     background-color: #ffffff;
+    transition: 0.3s;
     color: #000000;
 }
 
@@ -35,6 +48,7 @@
 
 .btn-footer:hover {
     background-color: #000000;
+    transition: 0.3s;
     color: #ff8a71;
     border: 3px solid #ff8a71;
     
