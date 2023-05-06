@@ -8,35 +8,35 @@ export default function Patrocinio() {
   return (
     <section className="container my-4">
       <div className="row justify-content-center">
-        <img
+      <img
           className="col-md-2 img-fluid mb-2"
-          src={Slack}
-          style={{ width: 120, height: 40 }}
-          alt=""
+          src={Google}
+          style={{ width: 130, height: 40 }}
+          alt="Logo do Google"
         />
         <img
           className="col-md-2 img-fluid mb-2"
-          src={Google}
-          style={{ width: 120, height: 40 }}
-          alt=""
+          src={Slack}
+          style={{ width: 130, height: 40 }}
+          alt="Logo do Slack"
         />
         <img
           className="col-md-2 img-fluid mb-2"
           src={Atlassian}
-          style={{ width: 120, height: 40 }}
-          alt=""
+          style={{ width: 150, height: 38 }}
+          alt="Logo do Atlassian"
         />
         <img
           className="col-md-2 img-fluid mb-2"
           src={Dropbox}
-          style={{ width: 120, height: 40 }}
-          alt=""
+          style={{ width: 150, height: 40 }}
+          alt="Logo do Dropbox"
         />
         <img
           className="col-md-2 img-fluid mb-2"
           src={Shopify}
-          style={{ width: 120, height: 40 }}
-          alt=""
+          style={{ width: 140, height: 40 }}
+          alt="Logo do Shopify"
         />
       </div>
     </section>
