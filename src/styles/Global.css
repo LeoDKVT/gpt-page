@@ -66,8 +66,20 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to right, #ae67fa, #f49867);
 }
 
+
 .scale-up-bottom {
 	animation: scale-up-bottom 0.8s linear both;
+}
+
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* Media Query */
