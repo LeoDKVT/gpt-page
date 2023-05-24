@@ -46,7 +46,7 @@ export default function Conteudo() {
 
         <div className="col-md-5">
           <img
-            className="img-fluid"
+            className="img-fluid scale-up-bottom"
             src={Ia}
             style={{ width: 560 }}
             alt="foto do rosto de um android Ia"

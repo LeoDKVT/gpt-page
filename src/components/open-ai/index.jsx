@@ -3,7 +3,7 @@ export default function OpenAi() {
     <section className="container text-white my-5" id="open-ai">
       <div className="row">
         <div className="col-lg-6 ">
-          <h2 className=" text-start degrade h1" style={{ maxWidth: 440 }}>
+          <h2 className="text-start degrade h1" style={{ maxWidth: 440 }}>
             The Future is Now and You Just Need To Realize It. Step into Future
             Today & Make it Happen.
           </h2>

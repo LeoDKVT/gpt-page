@@ -66,6 +66,9 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to right, #ae67fa, #f49867);
 }
 
+.scale-up-bottom {
+	animation: scale-up-bottom 0.8s linear both;
+}
 
 /* Media Query */
 @media only screen and (max-width: 768px) {
