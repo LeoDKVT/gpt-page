@@ -6,7 +6,7 @@ export default function NavHome() {
     <header>
       <nav className="navbar  navbar-dark navbar-expand-lg">
         <div className="container">
-          <a className="navbar-brand text-white " href="#home">
+          <a className="navbar-brand text-white" href="#home">
             <strong>GPT-3</strong>
           </a>
           <button
@@ -27,7 +27,7 @@ export default function NavHome() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link me-2 " href="#home">
+                <a className="nav-link me-2" href="#home">
                   Home
                 </a>
               </li>
@@ -56,7 +56,7 @@ export default function NavHome() {
 
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link me-2 " href="#home">
+                <a className="nav-link me-2" href="#home">
                   Sign in
                 </a>
               </li>

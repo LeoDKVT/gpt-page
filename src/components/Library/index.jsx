@@ -14,7 +14,7 @@ export default function Library() {
         </strong>
       </h2>
       <div className="row card-group">
-        <div className="col-md-4 ">
+        <div className="col-md-4">
           <Card className="bg-blue text-white mb-4">
             <Card.Img variant="top" src={Rectangle0} />
             <Card.Body>
