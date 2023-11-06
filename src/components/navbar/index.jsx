@@ -4,7 +4,7 @@ import BtnHeader from "../buttons/btn-header";
 export default function NavHome() {
   return (
     <header>
-      <nav className="navbar  navbar-dark navbar-expand-lg">
+      <nav className="navbar navbar-dark navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand text-white" href="#home">
             <strong>GPT-3</strong>
